@@ -1,0 +1,366 @@
+
+/* --- First Status Card --- */
+
+.invoice__status--container {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    height: 91px;
+    border-radius: 6px;
+    box-shadow: 0px 10px 10px -10px rgba(72, 84, 159, 0.100397);
+    margin-bottom: 16px;
+}
+
+.invoice__status {
+    margin: 0 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.invoice__status__text {
+    color: #858BB2;
+}
+
+.invoice__status--pending, .invoice__status--paid, .invoice__status--draft {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #FFF8F0;
+    width: 104px;
+    height: 46px;
+    padding-top: 1px;
+    border-radius: 6px;
+    color: #FF8F00;
+    font-family: 'SpartanBold';
+}
+
+.invoice__status--draft {
+    color: #373B53;
+    background-color: #F3F3F5;
+}
+
+.invoice__status--paid {
+    background-color: #f3fdf9;
+    color: #33D69F;
+}
+
+.invoice__status-dot {
+    display: list-item;
+    font-size: 2em;
+    margin-right: -5px;
+    margin-left: 20px;
+}
+
+
+/* --- Invoice Info Card --- */
+
+.invoice__details--container {
+    background-color: #FFFFFF;
+    border-radius: 6px;
+}
+
+.invoice__details {
+    margin: 0 24px;
+    padding-bottom: 24px;
+    box-shadow: 0px 10px 10px -10px rgba(72, 84, 159, 0.100397);
+}
+
+
+/* --- invoice number --- */
+
+.invoice__number {
+    margin-bottom: 30px;
+}
+
+.invoice__item-number {
+    font-family: 'SpartanBold';
+    color: #0C0E16;
+    padding-top: 24px;
+}
+
+.invoice__number--hashtag {
+    color: #7E88C3;
+}
+
+.invoice__item {
+    color: #7E88C3;
+    margin-top: -6px;
+}
+
+
+/* --- Invoice Address --- */
+
+.invoice__address--line {
+    color: #7E88C3;
+    font-style: normal; 
+    margin: 0 0 4px;
+    font-size: 0.6875em;
+}
+
+
+/* --- Invoice Name and Address --- */
+
+.invoice__date-address-email-container {
+    margin: 20px 0;
+}
+
+.invoice__date-container {
+    margin-right: 41px;
+}
+
+.invoice__date-address-container {
+    display: flex;
+    color: #7E88C3;
+}
+
+.invoice__date__date, .invoice__name--name, .invoice__email--email {
+    color: #0C0E16;
+    font-family: 'SpartanBold';
+    font-size: 0.9375em;
+    letter-spacing: -0.3125px;
+    line-height: 20px;
+}
+
+.invoice__date--second {
+    margin-top: 32px;
+}
+
+.invoice__name--name {
+    line-height: 16px;
+    margin-bottom: 12px;
+}
+
+.invoice__email {
+    margin-top: 28px;
+}
+
+.invoice__email--email {
+    line-height: 16px;
+}
+
+
+/* --- Invoice Summary --- */
+
+.invoice__summary {
+    background-color: #F9FAFE;
+    border-radius: 8px 8px 0 0;
+    padding: 18px 0 6px;
+    margin-top: 40px;
+}
+
+.invoice__total--container {
+    background-color: #373B53;
+    border-radius: 0px 0px 8px 8px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.invoice__summary--item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 24px 5px
+}
+
+.invoice__summary--item--name, .invoice__summary--item--total {
+    font-family: 'SpartanBold';
+    color: #0C0E16;
+}
+
+.invoice__summary--item--name {
+    line-height: 6px;
+}
+
+.invoice__summary--item--price {
+    font-family: 'SpartanBold';
+}
+
+
+/* --- Invoice Total Price --- */
+
+.invoice__total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 24px;
+}
+
+.invoice__total--text {
+    color: #FFFFFF;
+    font-size: 0.6875em;
+    letter-spacing: -0.229167px;
+}
+
+.invoice__total--price {
+    color: #FFFFFF;
+    font-size: 1.25em;
+    letter-spacing: -0.416667px;
+}
+
+
+
+/* --- Dark Mode Styling --- */
+
+.invoice__status--container__dark {
+    background-color: #1E2139;
+    color: #FFFFFF;
+}
+
+.invoice__status--container__dark .invoice__status__text {
+    color: #DFE3FA;
+}
+
+.invoice__status--pending__dark {
+    background-color: #2B2736;
+    color: #FF8F00;
+}
+
+.invoice__status--paid__dark {
+    background-color: #1F2B3F;
+    color:  #33D69F;
+}
+
+.invoice__status--draft__dark {
+    background-color: #292C44;
+    color: #DFE3FA;
+}
+
+.invoice__details--container__dark {
+    background-color: #1E2139;
+}
+
+.invoice__details--container__dark p {
+    color: #DFE3FA;;
+}
+
+.invoice__summary__dark {
+    background-color: #252945;;
+}
+
+.invoice__total--container__dark {
+    background-color: #0C0E16;
+}
+
+.invoice__date__date__dark, .invoice__name--name__dark {
+    color: #FFFFFF;
+}
+
+
+#invoice__item-number__dark, #invoice__name--name__dark, #invoice__email--email__dark, #invoice__summary--item--name__dark, #invoice__summary--item--total__dark, #invoice__total--price__dark {
+    color: #FFFFFF;
+}
+
+#invoice__summary--item--price__dark {
+    color: #888EB0;
+}
+
+
+@media screen and (min-width: 600px) {
+
+    /* --- Top Status Bar --- */
+    .invoice__status {
+        margin: 0 32px;
+        justify-content: flex-start;
+    }
+
+    .invoice__status__text {
+        margin-right: 16px;
+    }
+
+    /* -- Invoice Info --- */
+
+    .invoice__status--container {
+        height: 88px;
+        margin-bottom: 24px;
+    }
+
+    .invoice__details {
+        margin: 0 32px;
+        padding-bottom: 32px;
+    }
+    
+    .invoice__number-address--container {
+        display: flex; 
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .invoice__number {
+        margin-bottom: 10px;
+    }
+
+    .invoice__item-number {
+        font-size: 1em;
+    }
+
+    .invoice__address {
+        text-align: right;
+    }
+
+    .invoice__date-address-email-container {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .invoice__address-name--container {
+        margin: 0 30px 0 40px;
+    }
+
+    .invoice__email {
+        margin-top: 0;
+    }
+
+    .invoice__summary {
+        padding: 18px 0 23px;
+}
+
+    .invoice__summary--description--container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 32px 11px;
+    }
+
+    .invoice__summary--item {
+        margin: 0 32px 5px
+    }
+
+    .invoice__summary--item--name, .invoice__summary--description--name {
+        width: 190px;
+    }
+
+    .invoice__summary--item-quantity, .invoice__summary--description--quantity {
+        width: 10px;
+        text-align: center;
+    }
+
+    .invoice__summary--item-singe-price, .invoice__summary--description--singe-price {
+        width: 70px;
+        text-align: right;
+    }
+
+    .invoice__summary--item--total, .invoice__summary--description--total-price {
+        width: 68px;
+        text-align: right;
+    }
+
+    .invoice__total {
+        margin: 0 32px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .invoice__address-name--container {
+        margin: 0 100px 0 110px;
+    }
+
+}
+
+@media screen and (min-width: 820px) {
+    .invoice__status--container, .invoice__details--container {
+        max-width: 730px;
+    }
+}

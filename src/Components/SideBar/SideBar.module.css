@@ -1,0 +1,109 @@
+
+.side-bar--container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #373B53;
+    height: 72px;
+}
+
+.side-bar__logo-background {
+    background-color: #7C5DFA;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    border-radius: 0 20px 20px 0;
+    overflow: hidden;
+}
+
+.side-bar--container__dark {
+    background-color: #1E2139;
+}
+
+.side-bar__icon-background {
+    position: relative;
+    align-self: flex-end;
+}
+
+.side-bar__logo {
+    position: absolute;
+}
+
+
+.side-bar__toggle {
+    margin-left: auto;
+    margin-right: 24px;
+    height: 26px;
+    width: 26px;
+}
+
+.side-bar__avatar--container {
+    border-left: 1px solid #494E6E;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.side-bar__avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 0 24px;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .side-bar--container {
+        flex-direction: column;
+        align-items: center;
+        width: 101px;
+        height: 100%;
+        position: fixed;
+        border-radius: 0 20px 20px 0;
+        z-index: 9999;
+    }
+
+    .side-bar__logo-background {
+        background-color: #7C5DFA;
+        height: 101px;
+        width: 101px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0 20px 20px 0;
+        overflow: hidden;
+    }
+
+    .side-bar__icon-background {
+        position: relative;
+        align-self: flex-end;
+        width: 103px;
+        height: 50px;
+    }
+
+    .side-bar__toggle {
+        color: #7E88C3;
+        margin: auto 0 32px 0;
+    }
+
+    .side-bar__toggle:hover {
+        color: #DFE3FA;
+    }
+    
+    .side-bar__logo {
+        position: absolute;
+        width: 40px;
+    }
+
+    .side-bar__avatar--container {
+        border-left: none;
+        border-top: 1px solid #494E6E;
+        height: 88px;
+        width: 101px;
+        justify-content: center;
+        user-select: none;
+    }
+}

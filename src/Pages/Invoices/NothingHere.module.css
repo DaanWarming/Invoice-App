@@ -1,0 +1,39 @@
+/* --- Shows when there are no invoices --- */
+
+.invoices-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 220px;
+    margin: 100px auto 0;
+    text-align: center;
+}
+
+.invoices-empty--img {
+    max-width: 192.77px;
+}
+
+.invoices-empty--word {
+    font-weight: 700;
+}
+
+.invoices-empty__dark h2{
+    color: #FFFFFF;
+}
+
+.invoices-empty__dark p{
+    color: #DFE3FA;
+}
+
+@media screen and (min-width: 550px) {
+    .invoices-empty {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .invoices-empty {
+        margin-top: 210px;
+    }
+}

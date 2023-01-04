@@ -1,0 +1,14 @@
+.invoices {
+    background-color: #F8F8FB;
+    min-height: 89vh;
+}
+
+.invoices__dark {
+    background-color: #141625;
+}
+
+@media screen and (min-width: 1000px) {
+    .invoices {
+        padding-bottom: 11vh;
+    }
+}

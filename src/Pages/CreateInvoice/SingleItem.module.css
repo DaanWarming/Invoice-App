@@ -1,0 +1,114 @@
+
+.item-list {
+    margin-bottom: 30px;
+}
+
+.item-list__label {
+    font-size: 0.70em;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    color: #7E88C3;
+}
+
+.item-list__input {
+    border: 1px solid #DFE3FA;
+    height: 48px;
+    border-radius: 4px;
+    color: #0C0E16;
+    font-weight: 700;
+    display: block;
+    padding: 0 20px;
+    margin: 9px 0 21px;
+    width: 100%;
+    box-sizing: border-box;  
+    font-family: 'SpartanRegular';
+    font-size: 0.75em;
+}
+
+
+
+.item-list__qty-price--container {
+    display: flex;
+    align-items: center;
+}
+
+.item-list__quantity {
+    width: 64px;
+}
+
+.item-list__price {
+    width: 100px;
+    margin: 0 16px;
+}
+
+.item-list__total-price {
+    align-self: flex-start;
+    margin-top: -9px;
+}
+
+.item-list__total-price--price {
+    margin-top: 27px;
+    font-family: 'SpartanBold';
+}
+
+.item-list__trash-can {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+
+/* --- Dark Mode Style --- */
+.item-list__dark .item-list__label {
+    color: #888EB0;
+}
+
+.item-list__dark .item-list__input {
+    background-color: #1E2139;
+    border: 1px solid #252945;
+    color: #FFFFFF;
+}
+
+.item-list__input:hover {
+    border: 1px solid #9277FF;
+}
+
+.item-list__input:focus {
+    outline: 1px solid #9277FF;
+}
+
+@media screen and (min-width: 600px) {
+    .item-list {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -12px;
+    }
+
+    .item-list__item-name {
+        width: 214px;
+    }
+
+    .item-list__qty-price--container {
+        display: flex;
+        justify-content: space-between;
+        width: 54%;
+    }
+
+    .item-list__quantity {
+        max-width: 46px;
+    }
+
+    .item-list__input {
+        padding: 0 0 0 21px;
+    }
+
+    .item-list__total-price--price {
+        margin-top: 34px;
+        width: 55px;
+        overflow: hidden;
+    }
+
+    .item-list__trash-can {
+        margin-left: 25px;
+        margin-top: -18px;
+    }
+}

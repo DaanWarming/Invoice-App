@@ -1,0 +1,41 @@
+.back-btn {
+    display: flex;
+    align-items: center;
+    padding: 20px 0 23px;
+}
+
+.back-btn__text {
+    color: #0C0E16;
+    margin-left: 20px;
+    margin-bottom: 9px;
+    font-family: 'SpartanBold';
+}
+
+.back-btn__text:hover {
+    color: #7E88C3;
+    cursor: pointer;
+}
+
+.back-btn__text__dark {
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 600px) {
+    .back-btn {
+        padding: 37px 0 24px;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .back-btn {
+        max-width: 730px;
+        padding: 37px 0 22px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .back-btn {
+        max-width: 730px;
+        padding: 50px 0 21px;
+    }
+}

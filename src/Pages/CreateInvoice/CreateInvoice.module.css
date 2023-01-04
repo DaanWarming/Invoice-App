@@ -1,0 +1,60 @@
+
+
+.create-invoice {
+    background-color: #FFFFFF;
+}
+
+.create-invoice__dark {
+    background-color: #141625;
+}
+
+
+@media screen and (min-width: 600px) {
+    .create-invoice--back-btn {
+        max-width: 570px;
+        margin: 0 auto -35px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .create-invoice--container {
+        position: absolute;
+        height: auto;
+        width: 100%;
+        z-index: 10;
+        background: rgba(0,0,0,.4);
+    }
+
+    .create-invoice {
+        width: 616px;
+        border-radius: 0 20px 20px 0;
+    }
+
+    .create-invoice__invoice-list {
+        max-height: 90vh;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .create-invoice--back-btn {
+        max-width: 504px;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .create-invoice {
+        padding-left: 16px;
+        margin-left: 85px;
+        height: 100%;
+    }
+    .create-invoice--container {
+        height: 100%;
+    }
+
+    .create-invoice__invoice-list {
+        max-height: 100vh;
+        overflow: hidden;
+    }
+}

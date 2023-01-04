@@ -1,0 +1,16 @@
+
+
+.view-invoice {
+    background-color: #F8F8FB
+}
+
+.view-invoice__dark {
+    background-color: #141625;
+}
+
+@media screen and (min-width: 600px) {
+    .view-invoice {
+        height: 100vh;
+    }
+}
+

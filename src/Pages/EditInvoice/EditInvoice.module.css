@@ -1,0 +1,58 @@
+.edit-invoice {
+    background-color: #FFFFFF;
+}
+
+.edit-invoice__dark {
+    background-color: #141625;
+}
+
+@media screen and (min-width: 600px) {
+    .edit-invoice--back-btn {
+        max-width: 628px;
+        margin: 0 auto -35px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .edit-invoice--container {
+        position: absolute;
+        height: auto;
+        width: 100%;
+        z-index: 10;
+        background: rgba(0,0,0,.4);
+    }
+
+    .edit-invoice {
+        width: 616px;
+        border-radius: 0 20px 20px 0;
+    }
+
+    .invoice-on-background {
+        height: 90vh;
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (min-width: 820px) {
+    .edit-invoice--back-btn {
+        max-width: 552px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .edit-invoice {
+        padding-left: 16px;
+        margin-left: 85px;
+        height: 100%;
+        padding-bottom: 0;
+    }
+
+    .edit-invoice--container {
+        height: 100%;
+    }
+
+    .invoice-on-background {
+        height: 100vh;
+    }
+}

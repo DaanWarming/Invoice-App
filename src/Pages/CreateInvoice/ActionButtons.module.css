@@ -1,0 +1,95 @@
+
+.buttons--container {
+    margin-top: 20px;
+    height: 91px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -20px 76px -28px;
+    z-index: 9999;
+}
+
+.new-invoice--buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 10px;
+}
+
+.button {
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+    font-family: 'SpartanBold';
+    color: #FFFFFF;
+    padding: 18px 16px;
+    cursor: pointer;
+    margin-left: 7px;
+}
+
+.buttons__discard {
+    color: #7E88C3;
+    background-color: #F9FAFE;
+}
+
+.buttons__discard:hover {
+    background-color: #DFE3FA;
+}
+
+.buttons--container__dark .buttons__discard:hover {
+    background-color: #FFFFFF;
+    color: #7E88C3;
+}
+
+.buttons__draft {
+    color: #888EB0;
+    background-color: #373B53;
+}
+
+.buttons__draft:hover {
+    background-color: #0C0E16;
+}
+
+.buttons__send {
+    color: #FFFFFF;
+    background-color: #7C5DFA;
+}
+
+.buttons__send:hover {
+    background-color: #9277FF;
+}
+
+
+/* --- Dark Mode Styling --- */
+
+
+.buttons--container__dark .buttons__discard {
+    background-color: #252945;
+    color: #DFE3FA;
+}
+
+.buttons--container__dark .buttons__draft {
+    color: #DFE3FA;
+}
+
+@media screen and (min-width: 400px) {
+    .new-invoice--buttons {
+        margin: 0 24px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .buttons--container {
+        margin-top: -18px;
+    }
+
+    .new-invoice--buttons {
+        margin: 0 56px;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .buttons--container {
+        margin-top: 0px;
+    }
+}

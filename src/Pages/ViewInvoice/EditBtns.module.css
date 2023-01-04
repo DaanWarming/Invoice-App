@@ -1,0 +1,185 @@
+
+
+.btns--container {
+    background-color: #FFFFFF;
+    margin-top: 56px;
+    height: 90px;
+    box-shadow: 0px 10px 10px -10px rgba(72, 84, 159, 0.100397);
+    display: flex;
+    align-items: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin: 0 auto;
+}
+
+/* --- Styling of the buttons */
+
+.btns__edit, .btns__delete, .btns__paid, .btns__cancel {
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+    font-family: 'SpartanBold';
+    color: #FFFFFF;
+    padding: 0 24px;
+    cursor: pointer;
+}
+
+.btns__edit, .btns__cancel {
+    background-color: #F9FAFE;
+    color: #7E88C3;
+}
+
+.btns__edit:hover, .btns__cancel:hover {
+    background-color: #DFE3FA;
+}
+
+.btns__delete {
+    background-color: #EC5757;
+    margin: 0 8px 0 auto;
+}
+
+.btns__delete:hover {
+    background-color: #FF9797;
+}
+
+.btns__paid {
+    background-color: #7C5DFA;
+}
+
+.btns__paid:hover {
+    background-color: #9277FF;
+}
+
+
+/* --- Confirm deletion screen */
+
+.btns__confirm--container {
+    background-color: rgba(0,0,0,.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99; 
+    display: flex;
+    justify-content: center;
+}
+
+.btns__confirm {
+    position: absolute;
+    overflow: hidden;
+    background-color: white;
+    max-width: 480px;
+    border-radius: 8px;
+    width: 70%;
+    margin-top: 200px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 32px;
+}
+
+.btns__confirm--title {
+    font-family: 'SpartanBold';
+    letter-spacing: -0.416667px;
+    margin-top: 6px;
+}
+
+.btns__confirm--text {
+    color: #888EB0;
+    line-height: 22px;
+    margin-top: -4px;
+    margin-bottom: 24px;
+}
+
+.btns__confirm--buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btns__cancel {
+    color: #7E88C3;
+    background-color:#F9FAFE;
+    margin-right: 8px;
+}
+
+/* --- Dark Mode Styling --- */
+
+.btns--container__dark {
+    background-color: #1E2139;
+}
+
+.btns__edit__dark, .btns__cancel__dark {
+    background-color: #252945;
+    color: #DFE3FA;
+}
+
+.btns__edit__dark:hover, .btns__cancel__dark:hover {
+    color: #7E88C3;
+}
+
+.btns__confirm__dark {
+    background-color: #1E2139;
+    color: #FFFFFF;
+}
+
+.btns__confirm--title__dark {
+    color: #FFFFFF;
+}
+
+.btns__confirm--text__dark {
+    color: #888EB0;
+}
+
+@media screen and (min-width: 600px) {
+    .btns--container {
+        background-color: transparent;
+        margin-top: 0;
+        height: auto;
+        box-shadow:none;
+        position: absolute;
+        z-index: 1;
+        top: 191px;
+        margin: 0 auto 0 38%;
+        width: 50%;
+    }
+
+    .btns {
+        width: 309px;
+    }
+
+    .btns__delete {
+        margin: 0 8px;
+    }
+
+    .btns__paid {
+        background-color: #7C5DFA;
+        width: 181px;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .btns--container {
+        margin: 0 auto 0 42%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .btns--container {
+        top: 130px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .btns--container {
+        margin: 0 auto 0 36%;
+    }
+}
+
+
+
