@@ -1,6 +1,6 @@
 # Frontend Mentor - Invoice app solution
 
-## Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+## Live Site URL: [Demo](https://daanwarming.github.io/Invoice-App/)
 
 This is a solution to the [Invoice app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/invoice-app-i7KaLTQjl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -41,8 +41,9 @@ Users should be able to:
 
 ### Links
 
+- Repository URL: [Repository](https://github.com/DaanWarming/Invoice-App)
+- Live Site URL: [Demo](https://daanwarming.github.io/Invoice-App/)
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 
 
