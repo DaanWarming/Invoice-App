@@ -43,7 +43,7 @@ Users should be able to:
 
 - Repository URL: [Repository](https://github.com/DaanWarming/Invoice-App)
 - Live Site URL: [Demo](https://daanwarming.github.io/Invoice-App/)
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/invoice-app--y0uOizebV)
 
 
 
@@ -53,7 +53,7 @@ Users should be able to:
 - Flexbox
 - CSS Modules
 - Mobile-first workflow
-- [React](https://reactjs.org/) - React framework
+- [React](https://reactjs.org/)
 
 
 ## Author
